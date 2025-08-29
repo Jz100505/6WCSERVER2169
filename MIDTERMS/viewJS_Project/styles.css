@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* App Container */
+#app {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Title Styles */
+#app p {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+/* Button Styles */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Two-Way Binding Section */
+#two-way-binding {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Input Styles */
+input {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+}
+
+/* Conditional Rendering Section */
+#conditional-rendering {
+    margin-bottom: 20px;
+}
+
+/* Books Section */
+#books {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* List Rendering Section */
+#list-rendering {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+/* Ordered List Styles */
+ol {
+    padding-left: 20px;
+}
